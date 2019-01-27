@@ -1,0 +1,162 @@
+{
+  "@context" : {
+    "TimePosition" : {
+      "@id" : "http://www.w3.org/2006/time#TimePosition"
+    },
+    "codigoPostal" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#codigoPostal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#unsignedInt"
+    },
+    "nacionalidad" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#nacionalidad",
+      "@type" : "@id"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "age" : {
+      "@id" : "http://xmlns.com/foaf/0.1/age",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "paisDestino" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#paisDestino",
+      "@type" : "@id"
+    },
+    "sexo" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#sexo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "paisNacimiento" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#paisNacimiento",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "personaVinculada" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#personaVinculada",
+      "@type" : "@id"
+    },
+    "hasPart" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#hasPart",
+      "@type" : "@id"
+    },
+    "padreDe" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#padreDe",
+      "@type" : "@id"
+    },
+    "Provincia" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#Provincia"
+    },
+    "nombreP" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#nombreP",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "provinciadestino" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#provinciadestino",
+      "@type" : "@id"
+    },
+    "Pais" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#Pais"
+    },
+    "Person" : {
+      "@id" : "http://www.w3.org/2000/10/swap/pim/contact#Person"
+    },
+    "Persona" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#Persona"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "paisProcedencia" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#paisProcedencia",
+      "@type" : "@id"
+    },
+    "codigoMB" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#codigoMB",
+      "@type" : "http://www.w3.org/2001/XMLSchema#unsignedInt"
+    },
+    "nombrePr" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#nombrePr",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "partOf" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#partOf",
+      "@type" : "@id"
+    },
+    "codigoNE" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#codigoNE",
+      "@type" : "http://www.w3.org/2001/XMLSchema#unsignedInt"
+    },
+    "Baja" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#Baja"
+    },
+    "identifier" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#identifier",
+      "@type" : "http://www.w3.org/2001/XMLSchema#unsignedLong"
+    },
+    "titulacion" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#titulacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "fechaEscision" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#fechaEscision",
+      "@type" : "@id"
+    },
+    "nivelEstudios" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#nivelEstudios",
+      "@type" : "@id"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "fechaCreacion" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#fechaCreacion",
+      "@type" : "@id"
+    },
+    "modified" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#modified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Fecha" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#Fecha"
+    },
+    "Lugar" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#Lugar"
+    },
+    "provinciaNacimiento" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#provinciaNacimiento",
+      "@type" : "@id"
+    },
+    "descripcionMB" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#descripcionMB",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nivelNE" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#nivelNE",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "motivo" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#motivo",
+      "@type" : "@id"
+    },
+    "NivelEstudio" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#NivelEstudio"
+    },
+    "edad" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#edad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#unsignedInt"
+    },
+    "MotivoBaja" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#MotivoBaja"
+    },
+    "alta" : {
+      "@id" : "http://datos.santander.es/SantanderCensusDataOntology#alta",
+      "@type" : "@id"
+    }
+  }
+}
